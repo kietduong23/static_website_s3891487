@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+</head>
+  <body>
+    <header>
+        <img class="logo" src="./images/logo.png" alt="logo">
+        <ul class="header_nav">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./category.html">Mathematics</a></li>
+          <li><a href="./category.html">Physics</a></li>
+        </ul>
+    </header>
+    <main>
+      <h1>Contact Us</h1>
+      <div class="contact_form">
+        <form method="post" enctype="multipart/form-data">
+
+          <div class="purpose_input">
+            <p>Contact purpose:</p>
+            <select required name="purpose" id="purpose">
+              <option value="">Choose your purpose</option>
+              <option value="sell">I want to sell books</option>
+              <option value="buy">I want to buy books</option>
+            </select>
+          </div>
+          
+          <div class="name_input">
+            <label for="name"><p>Name:</p></label>
+            <input required type="text" name="name" id="name">
+          </div>
+
+          <div class="email_input">
+            <label for="email"><p>Email:</p></label>
+            <input required type="email" name="email" id="email">
+          </div>
+
+          <div class="phone_input">
+            <label for="phone"><P>Phone:</P></label>
+            <input required type="tel" name="phone" id="phone" pattern="[0-9]{10}">
+          </div>
+
+          <div class="contact_method">
+            <p>How can we contact you?</p>
+            <input type="checkbox" name="by_mail" id="by_mail" value="email">
+            <label for="by_mail">By email&nbsp;&nbsp;</label>
+            <input type="checkbox" name="by_mail" id="by_phone" value="phone">
+            <label for="by_phone">By phone&nbsp;&nbsp;</label>
+            <input type="checkbox" name="other" id="other" value="other" checked>
+            <label for="other">Other methods</label>
+          </div>
+
+          <div class="newsletter">
+            <p>Do you want to receive our weekly newsletter?</p>
+            <input type="radio" name="yes" id="yes" value="yes" checked>
+            <label for="yes">Yes</label>
+            <input type="radio" name="yes" id="no" value="no">
+            <label for="no">No</label>
+            <p>Note:</p>
+            <textarea name="note" id="note" cols="50" rows="10"></textarea>
+          </div>
+
+          <input type="submit">
+          <input type="reset">
+          
+        </form>
+      </div>
+    </main>
+    <footer>
+        <ul class="footer_nav">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Copyright</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    </footer>
+    
+  </body>
+</html>

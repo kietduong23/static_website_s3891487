@@ -1,0 +1,176 @@
+* { 
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 40px;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #004080;
+    position: relative;
+}
+
+header .logo {
+    padding: 20px 20px;
+    width: 200px;
+    height: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color:aliceblue
+}
+
+a p:hover {
+    color:aliceblue;
+}
+
+h2 {
+    text-align: center;
+    background-color: #66b3ff;
+}
+
+header ul {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #66b3ff;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+header ul li {
+    margin-top: 10%;
+    display: inline-block;
+}
+
+header ul li a {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header ul li a:hover, footer ul li a:hover {
+    border-radius: 30px;
+    color: black;
+    background-color: azure;
+}
+
+footer {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    background-color: #004080;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer ul {
+    margin-left: 60%;
+    display: inline-block;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+
+main {
+    margin: 20px 100px auto;
+    text-align: center;
+}
+
+
+.book_container {
+    background-color: lightblue;
+    display: flex;
+}
+
+.book_container img {
+    width: 200px;
+    height: 300px;
+}
+
+.book {
+    margin: 20px auto;
+}
+
+.book_img_container {
+    display: flex;
+}
+
+.main_img_container {
+    flex: 60%;
+    /* background-color: #66b3ff; */
+}
+
+.book_price_container {
+    flex: 50%;
+}
+
+.book_infor_container {
+    text-align: justify;
+}
+
+.main_img {
+    width: 400px;
+    height: 700px;
+    margin: 20px 20px;
+}
+
+.sub_img {
+    width: 500px;
+    height: 200px;
+    margin: 20px 20px;
+
+}
+
+.book_price_container {
+    margin: auto;
+    /* background-color: coral; */
+}
+
+.book_price_container p {
+    font-size: xx-large;
+}
+
+.book_price_container button {
+    background-color: #008CBA;
+    border-radius: 30px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.book_price_container button:hover {
+    color: aliceblue;
+    background-color: #5d635e;
+}
+
